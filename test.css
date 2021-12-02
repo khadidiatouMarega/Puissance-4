@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(225, 252, 238);
+    text-align: center;
+}
+
+#jeu{
+    background-color: blue;
+    display: inline-block;
+}
+.col{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: oldlace;
+    border-radius: 50%;
+    margin: 5px;
+}
+.col.empty{
+    cursor: pointer;
+}
+
+.next-rouges{
+    background-color: rgb(225, 0, 0, 0.2);
+}
+.col.rouges{
+    background-color: red;
+}
+.next.jaunes{
+    background-color: rgb(58, 58, 6);
+}
+.col.jaunes{
+    background-color: yellow;
+}
